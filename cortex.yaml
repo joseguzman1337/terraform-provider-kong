@@ -1,0 +1,18 @@
+---
+info:
+  title: Terraform Provider Kong
+  description: Fork of the terraform-provider-kong terraform plugin.
+  x-cortex-git:
+    github:
+      alias: r7org
+      repository: rapid7/terraform-provider-kong
+  x-cortex-tag: terraform-provider-kong
+  x-cortex-type: service
+  x-cortex-groups:
+  - terraform
+  - infra
+  x-cortex-domain-parents:
+  - tag: platform-delivery
+openapi: 3.0.1
+servers:
+- url: "/"
