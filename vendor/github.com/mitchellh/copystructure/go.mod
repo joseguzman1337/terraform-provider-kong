@@ -1,3 +1,5 @@
 module github.com/mitchellh/copystructure
 
-require github.com/mitchellh/reflectwalk v1.0.0
+go 1.26.1
+
+require github.com/mitchellh/reflectwalk v1.0.2

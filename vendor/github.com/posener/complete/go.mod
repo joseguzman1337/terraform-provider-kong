@@ -1,3 +1,7 @@
 module github.com/posener/complete
 
-require github.com/hashicorp/go-multierror v1.0.0
+go 1.26.1
+
+require github.com/hashicorp/go-multierror v1.1.1
+
+require github.com/hashicorp/errwrap v1.1.0 // indirect
